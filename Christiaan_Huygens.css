@@ -1,3 +1,69 @@
-H1{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+BODY {
+	font-size: 16px;
+	color: #111111;
+	background: #FFE4B5;
+}
+
+H1 {
+	font-size: 150%;
+    text-align: center; 
+}
+
+P {
+	text-align: justify;
+}
+
+A, A:visited {
+	text-decoration: none;
+	color: #4682B4;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+.header{
+	background:url(images/21.jpg) no-repeat;
+	background-size: cover;
+	padding: 3em;
+}
+
+.rightVoid, .leftVoid {
+	width: 200px;
+	padding: 10px;
+}
+
+.rightVoid {
+	float: right;
+	margin-left: 0.5em; 
+}
+
+.leftVoid {
+	float: left;
+	margin-right: 0.5em; 
+}
+
+.content {
+	overflow: hidden;
+}
+
+IMG {
+	width: 300px;
+	height: 500px;
+	padding: 0;
+	border: 1px solid #111111;
+}
+
+.centerPos {
 	text-align: center;
 }
+
+.footer {
+	font-size: 14px;
+	background: #4682B4;
+	text-align: center;
+	padding: 0.75em;
+}
+*/
